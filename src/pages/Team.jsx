@@ -9,7 +9,7 @@ import t4Image from '../assets/t4.jpg.webp'
 import Items from '../components/Pagecomponent/Home/Items'
 import Linksection from '../components/Footer/Linksection';
 import GetStarted from '../components/Pagecomponent/Home/GetStarted';
-import BannerReuse from '../components/ui/bannerReuse';
+import BannerReuse from '../components/ui/Banner_Reuse';
 function Team() {
   return (
   <div className='flex flex-col gap-24'>

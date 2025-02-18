@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 import backImage from '../assets/banner-bg.jpg'
 import Toolbar from '../components/Navigation/Toolbar';
-import BannerReuse from '../components/ui/bannerReuse';
+import BannerReuse from '../components/ui/Banner_Reuse';
 
 function Elements() {
   const item=['Default','primary','success','Info','Warning','Danger','Link','Disable']

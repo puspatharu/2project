@@ -1,13 +1,11 @@
 import React from 'react'
 import bannerImage from '../assets/banner-bg.jpg'
-import { FaArrowRightLong } from "react-icons/fa6";
 import GetStarted from '../components/Pagecomponent/Home/GetStarted';
 
 import Slidepart from '../components/Pagecomponent/Home/Slidepart';
 import Video from '../components/Pagecomponent/Home/Video';
-import Linksection from '../components/Footer/Linksection';
 import Toolbar from '../components/Navigation/Toolbar';
-import BannerReuse from '../components/ui/bannerReuse';
+import BannerReuse from '../components/ui/Banner_Reuse';
 
 function About() {
   return (

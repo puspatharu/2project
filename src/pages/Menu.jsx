@@ -6,7 +6,7 @@ import Toolbar from '../components/Navigation/Toolbar';
 
 import Linksection from '../components/Footer/Linksection';
 import Video from '../components/Pagecomponent/Home/Video';
-import BannerReuse from '../components/ui/bannerReuse';
+import BannerReuse from '../components/ui/Banner_Reuse';
 function Menu() {
   return (
     <div className='flex flex-col gap-24'>

@@ -5,7 +5,7 @@ import Toolbar from '../components/Navigation/Toolbar';
 import { MdError, MdOutlinePhone, MdOutlineMailOutline } from "react-icons/md";
 import { HiOutlineHome } from "react-icons/hi2";
 import Linksection from '../components/Footer/Linksection';
-import BannerReuse from '../components/ui/bannerReuse';
+import BannerReuse from '../components/ui/Banner_Reuse';
 function Contact() {
   return (
     <div className='flex flex-col gap-28'>
