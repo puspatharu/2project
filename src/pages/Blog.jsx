@@ -4,7 +4,7 @@ import Toolbar from '../components/Navigation/Toolbar'
 
 
 import FeaturesBlog from '../components/Pagecomponent/BLOG/FeaturesBlog';
-import Postblog from '../components/Pagecomponent/BLOG/postblog';
+import Postblog from '../components/Pagecomponent/BLOG/Post-blog';
 
 function Blog() {
 
