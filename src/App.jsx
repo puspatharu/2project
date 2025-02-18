@@ -7,7 +7,7 @@ import Team from './pages/Team'
 import Elements from "./pages/Elements"
 import Contact from './pages/Contact'
 import Blog from "./pages/Blog"
-import Layout from "./hoc/layout"
+import Layout from "./hoc/Lay-out"
 function App() {
 
   return (

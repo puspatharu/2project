@@ -2,9 +2,7 @@ import React from 'react'
 import blogImage from '../assets/blog-home-banner.jpg.webp'
 import Toolbar from '../components/Navigation/Toolbar'
 
-import { IoPersonOutline } from "react-icons/io5";
-import { MdDateRange } from "react-icons/md";
-import { FaEye, FaRegComment } from "react-icons/fa";
+
 import FeaturesBlog from '../components/Pagecomponent/BLOG/FeaturesBlog';
 import Postblog from '../components/Pagecomponent/BLOG/postblog';
 

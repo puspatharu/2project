@@ -13,6 +13,7 @@ function Postblog() {
         <p className='flex gap-2 items-center'><span className='text-[#777]'>1.2M View</span><span><FaEye /></span></p>
         <p className='flex gap-2 items-center'><span className='text-[#777]'>06 Comment</span><span><FaRegComment /></span></p>
       </div>
+      
     </div>
   </div>
   )
