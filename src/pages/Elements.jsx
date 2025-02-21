@@ -118,17 +118,17 @@ function Elements() {
 </div>
 
 <div className='flex flex-col w-11/12 mx-auto'>
-  <div className='flex gap-4 '>
-    <a className='bg-[#bea278] text-[13px] font-medium text-white px-8 py-5 hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>Extra Large</a>
-    <a className='hover:bg-[#62bfd4] text-[13px] font-medium hover:text-white px-8 py-4 bg-transparent transition all ease-in-out duration-500 text-[#62bfd4] border cursor-pointer'>Large</a>
-    <a className='bg-[#bea278] text-[13px] font-medium text-white px-7 py-3 hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>Default</a>
-    <a className='hover:bg-[#62bfd4] text-[13px] font-medium hover:text-white px-2 py-2.5 bg-transparent transition all ease-in-out duration-500 text-[#62bfd4] border cursor-pointer'>Medium</a>
-    <a className='bg-[#bea278] text-[13px] font-medium text-white px-7 py-1 hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>small</a>
+  <div className=' '>
+    <a className='bg-[#bea278] text-[13px] font-medium text-white px-4 py-2.5 mx-6  hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>Extra Large</a>
+    <a className='hover:bg-[#62bfd4] text-[13px] font-medium px-3 py-2   hover:text-white  bg-transparent transition all ease-in-out duration-500 text-[#62bfd4] border cursor-pointer'>Large</a>
+    <a className='bg-[#bea278] text-[13px] font-medium text-white px-3 py-1.5 mx-6   hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>Default</a>
+    <a className='hover:bg-[#62bfd4] text-[13px] font-medium hover:text-white px-2 py-1 bg-transparent transition all ease-in-out duration-500 text-[#62bfd4] border cursor-pointer'>Medium</a>
+    <a className='bg-[#bea278] text-[13px] font-medium text-white hover:bg-transparent mx-6 px-2 py-0.5 transition all ease-in-out duration-500  cursor-pointer hover:text-[#bea278] border'>small</a>
 
   </div>
-  <div>
+  {/* <div>
     afdsnfjy
-  </div>
+  </div> */}
 </div>
 
          </div>
