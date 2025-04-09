@@ -29,7 +29,7 @@ function Contact() {
 
       <div className='w-11/12 h-full mx-auto flex flex-col gap-7'>
 
-        <div className='grid grid-cols-3'>
+        <div className='grid lg:grid-cols-3 gap-16'>
           <div className='flex flex-col gap-4'>
             <div className='flex gap-4 items-center'>
               <div className='text-[#9b7e1f] text-3xl'>
@@ -72,7 +72,7 @@ function Contact() {
 
           </div>
           <div>
-            <textarea placeholder='Enter message' className=' px-3 border border-[#b1adad] outline-blue-300 w-86 h-full'></textarea>
+            <textarea placeholder='Enter message' className=' px-3 border border-[#b1adad] outline-blue-300 w-86 lg:h-full h-45'></textarea>
           </div>
         </div>
         <div className='w-full px-10  flex justify-end'>

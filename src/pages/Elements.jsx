@@ -30,7 +30,7 @@ function Elements() {
           <p className='text-[#777]'>Every avid independent filmmaker has <span className='text-[#cba227]'>Bold</span> about making that Italic interest documentary,or short film to show off their creative prowess.Many have great ideas and want to 'wow' the <sup className='text-[#cba227]'>Superscript</sup> scene,or video renters with their big project.But once you have the <sub className='text-[#cba227]'>subscript</sub> "in the can" (no easy feat),how do you move from a <span className='text-[#cba227]'>Strike</span> markedhand-written title inside a secondhand CD case,to a pile of cardboard boxes full of shiny new , retail-ready DVDs,<span className='text-[#cba227] underline'>underline</span> with UPC barcodes and polywrap sitting on your doorstep? You need to create eye-popping artwork and have your project replicated.Using a reputable full service DVD Replicate company like pacificDics,Inc.to partner with is certainly a helpful option to ensure a professional end result,but to help with your DVD replication project,here are 4 easy steps to follow for good DVD replication result:</p>
          </div>
          <div className='h-full flex flex-col gap-13'>
-<h1 className='text-3xl w-11/12 mx-auto font-medium'>Sample Buttons</h1>
+<h1 className='text-3xl w-11/12  mx-auto font-medium'>Sample Buttons</h1>
 <div className='flex flex-col gap-6 w-11/12 mx-auto'>
   <div className='flex gap-4'>
  <a className='bg-[#f9f9ff] text-[13px] font-medium px-7 py-2.5 hover:bg-transparent transition all ease-in-out duration-500  cursor-pointer'>Default</a>

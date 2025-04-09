@@ -1,8 +1,10 @@
 import React from 'react'
-import { IoPersonOutline } from "react-icons/io5";
-import { MdDateRange } from "react-icons/md";
-import { FaEye, FaRegComment } from "react-icons/fa";
+
 import feature1 from '../../../assets/feature-img1.jpg.webp'
+import feature2 from '../../../assets/feature-img2.jpg.webp'
+import feature3 from '../../../assets/feature-img3.jpg.webp'
+import feature4 from '../../../assets/feature-img4.jpg.webp'
+import feature5 from '../../../assets/feature-img5.jpg.webp'
 import userImage from '../../../assets/user-info.png.webp'
 import { IoSearch } from "react-icons/io5";
 import { FaFacebookF, FaBehance, FaTwitter, FaGithub } from "react-icons/fa";
@@ -102,7 +104,7 @@ function Postblog() {
   ]
 
   return (
-    <div className='bg-[#f3f4f6] h-full w-full flex px-17'>
+    <div className='bg-[#f3f4f6] h-full w-full lg:flex lg:px-17 px-9'>
       {/* <div className='flex justify-between gap-9 '>
         <div className='py-9 flex flex-col gap-4 w-fit  '>
           <p className='flex flex-col'>Food,Technology,
@@ -127,9 +129,16 @@ function Postblog() {
           <button className='bg-white text-[15px] font-medium px-5 py-3  transition hover:bg-[#bea278]  all ease-in-out duration-500  cursor-pointer hover:text-white w-32 '>View More</button>
         </div>
       </div> */}
-      <Blog_Reuse image={feature1} title='Astronomy Binoculars A Great Alternative' />
+      <div className='flex flex-col gap-9'>
 
-      <div className='border border-[#dbd6d6]  flex flex-col w-7/12 gap-8 '>
+        <Blog_Reuse image={feature1} title='Astronomy Binoculars A Great Alternative' />
+        <Blog_Reuse image={feature2} title='The Basics Of Buying A Telescope' />
+        <Blog_Reuse image={feature3} title='The Glossary Of Telescopes' />
+        <Blog_Reuse image={feature4} title='The Night Sky' />
+        <Blog_Reuse image={feature5} title='Telescopes 101' />
+      </div>
+
+      <div className='border border-[#dbd6d6]  flex flex-col lg:w-7/12 w-11.5/12 gap-8 '>
 
         <div className='flex items-center border-b border-[#d5cfcf] h-28 mx-7'>
           <input className='bg-[#bea278] w-70 placeholder:text-white py-2 px-8 font-medium text-[13px] rounded-4xl ' type="text" placeholder='Search Posts' />
@@ -151,7 +160,7 @@ function Postblog() {
               <FaGithub />
               <FaBehance />
             </div>
-            <p className='text-[#777] px-8 pb-16'>Boot camps have its supporters andit sdetractors.Some people do not understand why you should have to spend money on boot camp when you can get.Boot camps have itssupporters andit detractors</p>
+            <p className='text-[#777] px-8 pb-16 text-center'>Boot camps have its supporters andit sdetractors.Some people do not understand why you should have to spend money on boot camp when you can get.Boot camps have itssupporters andit detractors</p>
           </div>
         </div>
 
@@ -161,7 +170,7 @@ function Postblog() {
           {
             space.map((val, i) => {
               return (
-                <div className='flex gap-2.5 items-center'>
+                <div className='flex lg:gap-2.5 gap-5 items-center'>
 
                   <img src={val.image} alt="" />
                   <div className='flex flex-col'>
@@ -184,15 +193,18 @@ function Postblog() {
             {
               arr.map((val, i) => {
                 return (
+<div key={i}>
 
-                  <div className='text-[#777] flex justify-between border-dotted border-b hover:text-[#bea278]  border-[#dbd6d6] py-3.5'>
+                  <div className='text-[#777] flex justify-between hover:border-dotted hover:border-[#bea278] border-b hover:text-[#bea278]  border-[#bbbaba]  py-3.5'>
                     <p>{val.name}</p>
                     <p>{val.num}</p>
                   </div>
+</div>
+
                 )
               })
             }
-            
+
           </div>
         </div>
 
@@ -226,20 +238,6 @@ function Postblog() {
             }
           </div>
 
-
-          {/* <div className=''>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Technology</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Fashion</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Architecture</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Fashion</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Technology</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Lifestyle</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Art</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Advanture</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Food</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Lifestyle</span>
-      <span className='text-[14px] px-2 py-1.5 border border-[#dbd6d6] hover:text-white hover:bg-[#bea278] duration-300 all ease-in-out'>Advanture</span>
-    </div> */}
         </div>
       </div>
     </div>

@@ -7,8 +7,8 @@ function Blog_Reuse({
   image,title
 }) {
   return (
-    <div className='flex justify-between gap-9 '>
-           <div className='py-9 flex flex-col gap-4 w-fit  '>
+    <div className='lg:flex gap-9 justify-between'>
+           <div className='py-9 flex flex-col gap-4 lg:w-fit '>
              <p className='flex flex-col'>Food,Technology,
                <span>
                  Politice,Lifestyle
@@ -31,6 +31,8 @@ function Blog_Reuse({
              <button className='bg-white text-[15px] font-medium px-5 py-3  transition hover:bg-[#bea278]  all ease-in-out duration-500  cursor-pointer hover:text-white w-32 '>View More</button>
            </div>
          </div>
+
+         
   )
 }
 
